@@ -7,7 +7,7 @@ const map = { }; // Diccionario clave-valor
 let aux = 1;
 for (var key of Object.keys(songs)) {
     // Asociar map[`.item-${aux}`] con la canción songs[key]
-    map[`.item-${aux}`] = key;
+    map[`.item-${aux}`] = songs[key];
     aux++;
 }
 
