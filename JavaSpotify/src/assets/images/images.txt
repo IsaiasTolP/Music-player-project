@@ -1,3 +1,3 @@
-cover1.jpg
-cover2.jpg
-cover3.jpg
+cover1 -> =LOVE
+cover2 -> OTONABLUE
+cover3 -> BABYMETAL
