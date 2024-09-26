@@ -13,13 +13,13 @@
 }
 
 .item-1 {
-    background-image: url(/JavaSpotify/src/assets/images/cover1.webp);
+    background-image: url(../assets/images/cover1.webp);
 }
 
 .item-2 {
-    background-image: url(/JavaSpotify/src/assets/images/cover2.jpeg);
+    background-image: url(../assets/images/cover2.jpeg);
 }
 
 .item-3 {
-    background-image: url(/JavaSpotify/src/assets/images/cover3.jpeg);
+    background-image: url(../assets/images/cover3.jpeg);
 }
