@@ -1,4 +1,5 @@
 import songs from "../assets/songs/*.m4a";
+import Player from "./player.js"
 
 Object.keys(songs);
 
@@ -11,8 +12,6 @@ for (var key of Object.keys(songs)) {
     aux++;
 }
 
-// Crear objeto Player y pasar el objeto map
+// Instanciar Player y pasar el objeto map
 
-function Player(songs){
-    this.songs = songs;
-}
+player1 = Player(songs);
