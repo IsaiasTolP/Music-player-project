@@ -1,4 +1,4 @@
-import songs from "../assets/songs/*.mp3";
+import songs from "../assets/songs/*.m4a";
 
 Object.keys(songs);
 
