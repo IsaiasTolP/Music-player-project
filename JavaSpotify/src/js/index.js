@@ -1,5 +1,5 @@
 import songs from "../assets/songs/*.m4a";
-import Player from "./player.js"
+import Player from "./player.js";
 
 Object.keys(songs);
 
