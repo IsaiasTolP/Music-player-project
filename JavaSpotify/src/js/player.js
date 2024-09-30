@@ -6,7 +6,9 @@ export default class Player {
         let aux = 1;
         for (var [key, value] of Object.entries(map)) {
             // Instanciar song
+            const song = new Song(key, value);
             // Función de reproducción de canción
+            play_song(song);
             aux++;
         }
     }
