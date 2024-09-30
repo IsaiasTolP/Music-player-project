@@ -12,3 +12,7 @@ for (var key of Object.keys(songs)) {
 }
 
 // Crear objeto Player y pasar el objeto map
+
+function Player(songs){
+    this.songs = songs;
+}
