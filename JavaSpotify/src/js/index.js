@@ -14,4 +14,4 @@ for (var key of Object.keys(songs)) {
 
 // Instanciar Player y pasar el objeto map
 
-let player1 = Player(songs);
+const player = new Player(map);
