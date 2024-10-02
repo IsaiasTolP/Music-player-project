@@ -7,12 +7,15 @@ export default class Song {
 }
 
 export function play_song(song) {
+    const vinyl = song.element.querySelector(".vinyl");
     song.album.onclick = () => {
         if(song.audio.paused){
             song.audio.play();
+            vinyl.classList.add("open");
         }
         else{
             song.audio.pause();
+            vinyl.classList.remove("open");
         }
     }
 }
