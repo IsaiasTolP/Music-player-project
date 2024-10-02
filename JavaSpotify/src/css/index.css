@@ -13,8 +13,9 @@
 }
 
 .cover {
-    width: 100%;
-    height: 100%;
+    width: 256px;
+    height: 256px;
+    position: absolute;
 }
 
 .item-1 {
@@ -27,4 +28,41 @@
 
 .item-3 {
     background-image: url(../assets/images/cover3.jpeg);
+}
+
+.vinyl {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.detail {
+    position: relative;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.label {
+    position: relative;
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.hole {
+
+    position: relative;
+    z-index: -1;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 100%;
 }
