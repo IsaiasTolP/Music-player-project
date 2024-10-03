@@ -11,10 +11,12 @@ export function play_song(song) {
     song.album.onclick = () => {
         if(song.audio.paused){
             song.audio.play();
+            vinyl.classList.remove("close");
             vinyl.classList.add("open");
         }
         else{
             song.audio.pause();
+            vinyl.classList.add("close");
             vinyl.classList.remove("open");
         }
     }
